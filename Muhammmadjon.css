@@ -1,0 +1,165 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: #000000;
+    border-bottom: 5px solid red;
+}
+.ccss{
+    background-color: #000000;
+    color: red;
+}
+#header h1{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+    
+}
+
+#header .logo{
+    
+    color: red;
+}
+
+.navbar{
+    float: right;
+    
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover{
+    color: red;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#banner{
+    height: 60vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk79yYGfZ03O90kJrz5CEtxHcMvIe1fIqY-A&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+}
+
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+}
+
+#newsletter {
+    background-color: red;
+    color: blue;
+    font-family: sans-serif;
+    padding: 20px 0 ;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left{
+    float: left;
+    background-color: red;
+    color:#000000;
+}
+
+#newsletter .right {
+    float: right;
+    background-color: #000000;
+    color: red;
+}
+
+#newsletter input{
+    padding: 5px;
+}
+
+.button{
+    padding: 7px 15px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    margin-left: 15px;
+}
+
+#courses {
+    padding: 30px;
+}
+
+.box{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: serif;
+    color: red;
+}
+
+.box img {
+    max-width: 100%;
+    width: 100px;
+    text-align: center;
+}
+
+.clr{
+    clear: both;
+}
+
+#footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    margin-top: 40px;
+}
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+}
+
+#about-us {
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+.bg-dark {
+    background-color: red;
+    color: #fff;
+    padding: 15px;
+}
+
+.service-box{
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #000000;
+    border: 1px solid #888;
+    color: red;
+}
+.label{
+    display: block;
+    margin-bottom: 10px 0;
+}
+.form-input{
+    width: 100%;
+    padding: 10px 0;
+}
